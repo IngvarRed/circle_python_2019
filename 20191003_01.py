@@ -5,4 +5,7 @@ for i in range(heigth):
         print(" ", end="")
     for j in range(i + 2):
         print("#", end="")
+    print(" ", end="")
+    for y in range(i + 2):
+        print("#", end="")
     print()
