@@ -9,6 +9,3 @@ for i in range(len(text_input)):
     if ("A" <= text_output[i] <= "Z") or ("a" <= text_output[i] <= "z"):
         text_output[i] = chr((ord(text_output[i]) + key_cs))
     print(text_output[i], end="")
-
-
-

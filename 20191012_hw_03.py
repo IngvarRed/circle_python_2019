@@ -13,7 +13,7 @@ chz = True
 chz = True
 while chz:
     cntr = int(input("please write your choice : "))
-    if 1<= cntr <= 3:
+    if 1 <= cntr <= 3:
         chz = False
 
 # avialable monets
