@@ -2,7 +2,7 @@
 import string
 
 
-# cameCase
+# camelCase
 # snake_case
 def foo_code_cesar(ll, l_key):
     code = ord(ll)
