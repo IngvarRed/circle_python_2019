@@ -1,6 +1,6 @@
 # list
 
-week_days = []
+week_days = [10]
 print(week_days)
 week_days = ['Monday', 'Tuesday', 'Wednesdayy']
 print(week_days)

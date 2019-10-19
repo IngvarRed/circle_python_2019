@@ -12,13 +12,14 @@ for n, item in enumerate('cat'):
 print()
 for n, item in enumerate(ll):
     print(n, ll[n:])
-
+input("..")
 print()
 ll2 = ll + ['hello']
 print(ll2)
+
 ll3 = ll2 * 3
 print(ll3)
-
+input("..")
 print("todo -- loop to print only 2 [100, 12.5]")
 for n, item in enumerate(ll):
     if n != 2:
