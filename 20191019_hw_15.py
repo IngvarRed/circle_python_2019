@@ -2,16 +2,18 @@ import os
 
 def check(ll):
     # check if the list is sorted
-    return False
-"""
-x11 x12 x13 x14
-x21 x22 x23 x24
-x31 x32 x33 x34
-x41 x42 x43   
+    bord_ok = [
+        [1, 2, 3, 4],
+        [5, 6, 7, 8],
+        [9, 10, 11, 12],
+        [13, 14, 15, 0]
+    ]
+    if bord_ok == ll:
+        key_chek = True
+    else:
+        key_chek = False
 
-X1[y,,,],
-x2[y,,,]
-"""
+    return key_chek
 
 
 def print_bord(ll):
@@ -22,11 +24,6 @@ def print_bord(ll):
 def check_move(move, bb):
     return False
 
-"""
-x[i]
-    y[j]
-  if  = 0
-"""
 
 
 if __name__ == "__main__":
