@@ -1,29 +1,39 @@
 import os
 
+
 def check(ll):
     # check if the list is sorted
-    bord_ok = [
-        [1, 2, 3, 4],
-        [5, 6, 7, 8],
-        [9, 10, 11, 12],
-        [13, 14, 15, 0]
-    ]
+    bord_ok = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 0]
     if bord_ok == ll:
         key_chek = True
     else:
         key_chek = False
-
     return key_chek
 
 
 def print_bord(ll):
-    os.system("clear") # for windows you need to use "cls" instead of "clear"
-    print("15\t14\t13\t12\n11\t10\t9\t8\n7\t6\t5\t4\n3\t1\t2\t_")
+    os.system("clear")  # for windows you need to use "cls" instead of "clear"
+    for i in range(16):
+        if ll[i] == 0:
+            print("_")
+        else:
+            print(ll[i], end="\t")
+        if (i == 3) or (i == 7) or (i == 11):
+            print("")
+    print()
 
 
 def check_move(move, bb):
-    return False
+    position = bb.index(move)
+    if position - 1 <= 0:
+        print()
+    if position - 4 <= 0:
+        print()
+    if position + 1 >= 15:
+        print()
+    if position + 4 >= 15:
 
+    return False
 
 
 if __name__ == "__main__":
