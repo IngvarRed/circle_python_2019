@@ -5,6 +5,7 @@ def check(ll):
     # check if the list is sorted
     bord_ok = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 0]
     if bord_ok == ll:
+        print("Congratulations! You won!")
         key_chek = True
     else:
         key_chek = False
