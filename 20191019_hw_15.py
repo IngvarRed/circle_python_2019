@@ -53,5 +53,8 @@ if __name__ == "__main__":
         print_bord(bord)
         while True:
             your_try = int(input("Enter numb 1-15 >>"))
-            if check_move(your_try, bord):
-                break
+            if your_try in bord:
+                if check_move(your_try, bord):
+                    break
+            else:
+                print("Error! Enter a number from 1 to 15!")
