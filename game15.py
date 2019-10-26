@@ -6,10 +6,9 @@ def check(ll):
     bord_ok = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 0]
     if bord_ok == ll:
         print("Congratulations! You won!")
-        key_chek = True
+        return True
     else:
-        key_chek = False
-    return key_chek
+        return False
 
 
 def print_bord(ll):
