@@ -5,7 +5,7 @@ def func(x):
 var = func(3)
 print(var)
 
-# print(func)
+print(func)
 z = func
 
-print(z(3))
+print(z(5))
