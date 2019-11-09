@@ -1,3 +1,4 @@
+# tuple
 tt = 12, "hello", 32
 print(tt)
 print(type(tt))

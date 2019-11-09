@@ -19,4 +19,13 @@ for vls in sorted(name_dct.values()):
         if name_dct[ks] == vls:
             print(ks, ":", name_dct[ks])
 
+print("\nDictionary sorted by Name\n", sorted(name_dct.items()))
 
+print("\nDictionary sorted by Year\n", sorted(name_dct.items(), key=lambda x: (x[1], x[0])))
+
+'''
+dictionary
+key = value
+dd[key] = value
+dd[Vova] = 1990
+'''
