@@ -44,7 +44,6 @@ def decript_text(decr_dict, encr_text):  # decrypt text
 args = ['a', 'story.txt']
 
 try:
-    print('open file')
     file_name = args[1]
     with open(file_name, 'r') as file_text:
         original_text = file_text.read()
@@ -68,7 +67,6 @@ for symbol in string.punctuation:
     text = text.replace(symbol, "")
 # split by ' '
 words = text.split()
-print("words from file is \n", words)
 
 with open('words.txt', 'r') as wl:
     word_file = wl.read()
