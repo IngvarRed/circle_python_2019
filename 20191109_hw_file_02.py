@@ -10,17 +10,15 @@ def file_count(name_f):
     with open(name_f) as file_o:
         text = file_o.read()
         f_lines = text.split('\n')
-        print(f'file {name_f} have {len(f_lines)} lines')
+        print(f'file "{name_f}" have :  {len(f_lines)} lines;', end='')
         f_words = []
         for line in f_lines:
             f_words += (line.split(' '))
-        print(f'file {name_f} have {len(f_words)} words')
+        print(f'  {len(f_words)} words;', end='')
         f_lett = 0
         for lett in f_words:
             f_lett += len(lett)
-        print(f'file {name_f} have {f_lett} letters')
-
-
+        print(f'  {f_lett} letters;')
     return
 
 
