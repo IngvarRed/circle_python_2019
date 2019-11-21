@@ -40,7 +40,7 @@ def decript_text(decr_dict, encr_text):  # decrypt text
 
 
 # open a file to read
-# argss = sys.argv
+# args = sys.argv
 args = ['a', 'story.txt']
 
 try:
